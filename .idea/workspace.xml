@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/section/_body.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/gulpTasks/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mixin/stat.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section/body.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section/footer.pug" afterDir="false" />
-    </list>
+    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622300880564</updated>
       <workItem from="1622300881761" duration="154000" />
-      <workItem from="1622301055741" duration="21390000" />
+      <workItem from="1622301055741" duration="21846000" />
     </task>
     <servers />
   </component>
@@ -95,9 +88,9 @@
       <screen x="-281" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1018" y="-781" key="FileChooserDialogImpl/0.0.1440.900/-281.-1080.1920.1080@-281.-1080.1920.1080" timestamp="1622306520462" />
-    <state x="929" y="-785" width="704" height="490" key="find.popup" timestamp="1622389636563">
+    <state x="929" y="-785" width="704" height="490" key="find.popup" timestamp="1622389784198">
       <screen x="-281" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="929" y="-785" width="704" height="490" key="find.popup/0.0.1440.900/-281.-1080.1920.1080@-281.-1080.1920.1080" timestamp="1622389636563" />
+    <state x="929" y="-785" width="704" height="490" key="find.popup/0.0.1440.900/-281.-1080.1920.1080@-281.-1080.1920.1080" timestamp="1622389784198" />
   </component>
 </project>
