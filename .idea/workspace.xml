@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scss/section" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -49,6 +47,7 @@
       <recent name="$PROJECT_DIR$/assets/img/icons/Icon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/assets/scss/section" />
       <recent name="$PROJECT_DIR$/config/gulpTasks" />
       <recent name="$PROJECT_DIR$/section" />
@@ -63,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622300880564</updated>
       <workItem from="1622300881761" duration="154000" />
-      <workItem from="1622301055741" duration="22901000" />
+      <workItem from="1622301055741" duration="23233000" />
     </task>
     <servers />
   </component>
