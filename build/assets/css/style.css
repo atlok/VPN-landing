@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+  header .row__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px; }
+    header .row__header .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      header .row__header .logo .logo__img {
+        width: 35px; }
+      header .row__header .logo .logo__brand {
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        line-height: 23.7px; }
+      header .row__header .logo .logo__brand-type {
+        font-family: "Rubik";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.7px; }
+    header .row__header .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      header .row__header .menu .menu__item {
+        font-family: "Rubik";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #0B132A; }
+      header .row__header .menu .menu__item:not(:last-child) {
+        margin-right: 40px; }
+    header .row__header .auth {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      header .row__header .auth .auth__item {
+        font-family: "Rubik";
+        font-weight: 500;
+        font-size: 16px;
+        color: #0B132A; }
+      header .row__header .auth .auth__item:not(:last-child) {
+        margin-right: 30px; }
+      header .row__header .auth .auth__item_sign_up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #F53855;
+        border-radius: 50px;
+        color: #F53855;
+        width: 150px;
+        height: 45px; }
+  header .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 129px; }
+    header .hero .information {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 555px; }
+      header .hero .information__title {
+        font-family: "Rubik";
+        font-size: 50px;
+        line-height: 70px; }
+      header .hero .information__description {
+        margin-top: 20px;
+        font-family: "Rubik";
+        font-size: 16px;
+        line-height: 30px; }
+      header .hero .information__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-family: "Rubik";
+        font-weight: 700;
+        font-size: 16px;
+        background: #F53855;
+        margin-top: 50px;
+        width: 250px;
+        height: 60px;
+        border-radius: 10px; }
+        header .hero .information__button_shadow {
+          box-shadow: 0 45px 45px -11px rgba(245, 56, 85, 0.41); }
+    header .hero .illustration {
+      width: 100%; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  box-shadow: 0 34px 35px -12px rgba(34, 60, 80, 0.35); }
+  .content .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%; }
+    .content .stats .stat__item {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .content .stats .stat__item__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: rgba(245, 56, 85, 0.15);
+        width: 55px;
+        height: 55px; }
+      .content .stats .stat__item__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 35px; }
+      .content .stats .stat__item__title {
+        font-family: "Rubik";
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px; }
+      .content .stats .stat__item__text {
+        font-family: "Rubik";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px; }
+    .content .stats .stat__item:not(:last-child):after {
+      content: " ";
+      border-right: 2px solid #EEEFF2;
+      margin-left: 150px;
+      height: 150px; }
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px; }
+  .feature .feature__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 170px; }
+    .feature .feature__details__title {
+      font-family: "Rubik";
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 50px;
+      color: #0B132A; }
+    .feature .feature__details__description {
+      font-family: "Rubik";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #4F5665;
+      margin: 20px 0; }
+  .feature__param {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F5665;
+    line-height: 30px;
+    list-style: none; }
+  .feature__param:before {
+    content: '';
+    display: inline-block;
+    background-image: url("../img/icons/list_style.svg");
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px; }

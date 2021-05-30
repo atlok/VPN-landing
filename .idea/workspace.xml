@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="" />
+    <list default="true" id="891dcc79-567a-4490-aa27-508a7bf1fd95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/img/icons" />
       <recent name="$PROJECT_DIR$/assets/img/icons/Icon" />
@@ -60,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622300880564</updated>
       <workItem from="1622300881761" duration="154000" />
-      <workItem from="1622301055741" duration="21846000" />
+      <workItem from="1622301055741" duration="22901000" />
     </task>
     <servers />
   </component>
