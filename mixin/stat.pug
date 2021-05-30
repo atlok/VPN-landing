@@ -1,0 +1,7 @@
+mixin stat(obj)
+    .stat__item
+        .stat__item__logo
+            img(src=obj.img alt=obj.title)
+        .stat__item__info
+            span.stat__item__title= obj.title
+            span.stat__item__text= obj.text

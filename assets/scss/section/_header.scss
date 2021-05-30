@@ -1,0 +1,133 @@
+header {
+  display: flex;
+  flex-direction: column;
+
+  .row__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .logo__img {
+        width: 35px;
+      }
+
+      .logo__brand {
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        line-height: 23.7px;
+      }
+
+      .logo__brand-type {
+        font-family: $rubik;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.7px;
+      }
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .menu__item {
+        font-family: $rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        color: $blacktextcolor;
+      }
+
+      .menu__item:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+
+    .auth {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .auth__item {
+        font-family: $rubik;
+        font-weight: 500;
+        font-size: 16px;
+        color: $blacktextcolor;
+      }
+
+      .auth__item:not(:last-child) {
+        margin-right: 30px;
+      }
+
+      .auth__item_sign_up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $brandcolor;
+        border-radius: 50px;
+        color: $brandcolor;
+        width: 150px;
+        height: 45px;
+      }
+    }
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 129px;
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 555px;
+
+      &__title {
+        font-family: $rubik;
+        font-size: 50px;
+        line-height: 70px;
+      }
+      &__description {
+        margin-top: 20px;
+        font-family: $rubik;
+        font-size: 16px;
+        line-height: 30px;
+      }
+      &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-family: $rubik;
+        font-weight: 700;
+        font-size: 16px;
+        background: $brandcolor;
+        margin-top: 50px;
+        width: 250px;
+        height: 60px;
+        border-radius: 10px;
+
+        &_shadow {
+          box-shadow: 0 45px 45px -11px rgba(245, 56, 85, 0.41);
+        }
+      }
+    }
+    .illustration {
+      width: 100%;
+    }
+  }
+}
+
+
+

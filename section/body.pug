@@ -1,0 +1,16 @@
+include  ../mixin/stat
+- var feature_params = ['Powerfull online protection.', 'Internet without borders.', 'Supercharged VPN', 'No specific time limits.']
+
+section.content
+    .stats
+        +stat({img:'./assets/img/icons/user.svg', title: '90+', text: 'Users'})
+        +stat({img:'./assets/img/icons/location.svg', title: '30+', text: 'Locations'})
+        +stat({img:'./assets/img/icons/server.svg', title: '50+', text: 'Servers'})
+section.feature
+    img.illustration(src="./assets/img/illustration_feature.svg")
+    .feature__details
+        span.feature__details__title We Provide Many Features You Can Use
+        p.feature__details__description You can explore the features that we provide with fun and have their own functions each feature.
+        ul.feature__details__params
+            each item in feature_params
+                li.feature__param= item
